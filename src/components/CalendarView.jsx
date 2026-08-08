@@ -6,6 +6,7 @@ import {
 } from 'date-fns';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import TimetableView from './TimetableView';
+import { calendarConfig } from '../data/calendarConfig';
 
 export default function CalendarView({ courses, attendanceHistory, markAttendance }) {
   const [currentMonth, setCurrentMonth] = useState(new Date());
